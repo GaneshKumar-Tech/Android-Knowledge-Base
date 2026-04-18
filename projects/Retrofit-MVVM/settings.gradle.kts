@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Retrofit + MVVM"
+rootProject.name = "Retrofit-MVVM"
 include(":app")
