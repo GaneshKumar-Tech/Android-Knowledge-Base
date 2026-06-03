@@ -1,5 +1,6 @@
 package com.example.retrofitmvvm.network
 
+import com.example.retrofitmvvm.common.AppConstants
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -12,7 +13,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 @InstallIn(SingletonComponent::class)
 object NetworkModule {
 
-    private const val BASE_URL = "https://example.com/"
+    //private const val BASE_URL = "https://example.com/"
+    private const val BASE_URL = AppConstants.BASE_URL
 
     @Provides
     @Singleton

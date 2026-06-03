@@ -2,4 +2,21 @@
 <resources>
 
     <style name="Theme.RetrofitMVVM" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.RetrofitMVVM.Splash" parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground">
+            #6F52B5
+        </item>
+
+        <item name="windowSplashScreenAnimatedIcon">
+            @drawable/logo_splash
+        </item>
+
+        <item name="postSplashScreenTheme">
+            @style/Theme.RetrofitMVVM
+        </item>
+
+    </style>
+
 </resources>
