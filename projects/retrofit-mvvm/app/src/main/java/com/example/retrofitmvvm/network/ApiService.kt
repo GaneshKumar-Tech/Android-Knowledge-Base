@@ -8,7 +8,7 @@ interface ApiService {
     /*@GET("users")
     suspend fun getUsers(): List<User>*/
 
-    @GET("products")
+    @GET("api/products")
     suspend fun getProducts(): List<Product>
 
 }
